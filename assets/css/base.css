@@ -28,3 +28,21 @@ body{
     text-decoration: none;
     
 }
+.inner-head{
+    text-align: center;
+}
+.inner-head .inner-title{
+    font-size: 25px;
+}
+.inner-head .inner-desc{
+    font-size: 15px;
+    color: var(--color-text);
+    margin: 25px 200px;
+    padding: 0 100px;
+}
+@media(max-width: 798px){
+     .inner-head .inner-desc{
+        padding: 0;
+        margin: 25px 0;
+    }
+}
