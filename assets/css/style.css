@@ -333,3 +333,44 @@
     margin: 0;
 }
 /* end-section 6 */
+/* section-7 */
+.section-7{
+    width: 100%;
+    
+    position: relative;
+}
+.section-7::before{
+    content: "";
+    position: absolute;
+    background: url(https://templatemo.com/templates/templatemo_535_softy_pinko/assets/images/fun-facts-bg.png);
+    width: 100%;
+    z-index: 0;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.section-7 .container .row .inner-box{
+    margin: 110px 0;
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.section-7 .container .row .inner-box::after{
+    background: url(https://templatemo.com/templates/templatemo_535_softy_pinko/assets/images/circle-dec.png);
+    content: " ";
+    position: absolute;
+    top: 37px;
+    left: 90%;
+    width: 58px;
+    height: 18px;
+    z-index: 3;
+    
+}
+.section-7 .container .row .inner-box strong{
+    font-size: 40px
+}
+/* end-section-7 */
